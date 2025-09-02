@@ -122,7 +122,7 @@ body {
 
 }
 .home img { 
-    width: 300px;  
+    width: 350px;  
     height: auto;
     position: absolute;
     top: 20%;
@@ -139,7 +139,7 @@ body {
     transform: scale(1.05);
  }
 .home-content { 
-  max-width: 600px; 
+  max-width: 650px; 
 }
 .home-content h3{
     font-size: 32px;
