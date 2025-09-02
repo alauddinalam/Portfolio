@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alam Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Typed.js -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+    <nav class="navbar" id="navbar">
+      <a href="#Home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skill</a>
+      <a href="#Project">Project</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="Home">
+    <img src="./assets/alam1.jpg" alt="Alauddin Alam" />
+    <div class="home-content">
+      <h1>Hi! My name is</h1>
+      <h1 class="highlight">Alauddin Alam</h1>
+      <h3>And I'm a <span id="element" class="ani"></span></h3>
+      <p>Web Developer with 1 year of experience.
+        <br>Expert in <b><i>Frontend & Backend</i></b> development.
+      </p>
+      <div class="home-icon">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/alam_official01/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/alauddin-alam-b33590322/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/@bestlife01"><i class="fab fa-youtube"></i></a>
+      </div>
+      <a href="#about" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <main class="container" id="about">
+    <section class="about-section">
+      <img src="./assets/alam02.jpg" alt="Alam photo" class="profile-img">
+      <div class="info">
+        <h3>My Introduction</h3>
+        <h1>About Me</h1>
+        <p>I’m Alauddin Alam, a Frontend & Backend Developer from Bihar. Skilled in HTML, CSS, and Javascript. Created a fashion e-commerce site and portfolio. Passionate about clean UI and mobile-first design. Eager to grow in a tech-driven team.</p>
+        <p class="quote">"Design is intelligence made visible. Code brings it to life."</p>
+        <ul>
+          <li><strong>Name:</strong> Alauddin Alam</li>
+          <li><strong>DOB:</strong> July 25, 2004</li>
+          <li><strong>Address:</strong> Siwan, Bihar 841435</li>
+          <li><strong>Email:</strong> alamalauddin399@gmail.com</li>
+          <li><strong>Phone:</strong> +91-62009-36159</li>
+        </ul>
+        <div class="tags">
+          <span>🎵 Music</span>
+          <span>🌍 Travel</span>
+          <span>🎬 Movie</span>
+          <span>🏀 Sports</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Skills -->
+  <section class="skills-section" id="skill">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card" style="--progress:95%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        <p>HTML</p>
+        <span></span>
+      </div>
+      <div class="skill-card" style="--progress:92%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        <p>CSS</p>
+        <span></span>
+      </div>
+      <div class="skill-card" style="--progress:80%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <p>JavaScript</p>
+        <span></span>
+      </div>
+      <div class="skill-card" style="--progress:90%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+        <p>Bootstrap</p>
+        <span></span>
+      </div>
+      <div class="skill-card" style="--progress:78%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <p>React</p>
+        <span></span>
+      </div>
+      <div class="skill-card" style="--progress:60%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+        <p>Figma</p>
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects-section" id="Project">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="./assets/Alam1.jpg" alt="Project 1" />
+        <div class="project-content">
+          <h3>Fashion E-Commerce</h3>
+          <p>HTML, CSS, JS</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./assets/Alam1.jpg" alt="Project 2" />
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>React, CSS</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="Contact">
+    <div class="footer-content">
+      <div class="contact-item">
+        <i class="fab fa-whatsapp"></i>
+        <div>
+          <h4>WhatsApp</h4>
+          <a href="https://wa.me/916200936159" target="_blank">+91 6200936159</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <div>
+          <h4>Call</h4>
+          <a href="tel:+916200936159">+91 6200936159</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <a href="mailto:alambabu6200@gmail.com">alambabu6200@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h4>Location</h4>
+          <p>Siwan, Bihar, 841435</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      Made with &hearts; by <b>Alauddin Alam</b> <br>
+      © 2025 All Rights Reserved
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
