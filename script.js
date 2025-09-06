@@ -1,11 +1,10 @@
 // Navbar toggle
-const menuToggle = document.getElementById("menu-toggle");
-const navbar = document.getElementById("navbar");
-if (menuToggle && navbar) {
+  const menuToggle = document.getElementById("menu-toggle");
+  const navbar = document.getElementById("navbar");
+
   menuToggle.addEventListener("click", () => {
-    navbar.classList.toggle("show");
+    navbar.classList.toggle("show"); // adds/removes show class
   });
-}
 
 // Typed.js animation
 if (window.Typed) {
