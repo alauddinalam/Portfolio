@@ -69,11 +69,26 @@ if (media && typeof media.addEventListener === "function") {
   });
 }
 
+// Forms 
+const form = document.getElementById("contact-form");
+const status = document.getElementById("form-status");
 
-// var typed = new Typed('#element', {
-//       strings: ['Web developer','Graphic Designer', 'Web Designer', 'Video Editor.'],
-//       typeSpeed: 100,
-//       backSpeed:100,
-//       backDelay:100,
-//       loop:true
-//     });
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
+  try {
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+    if (response.ok) {
+      status.innerHTML = "✅ Message sent successfully!";
+      form.reset();
+    } else {
+      status.innerHTML = "❌ Oops! Something went wrong.";
+    }
+  } catch (error) {
+    status.innerHTML = "⚠️ Network error. Try again later.";
+  }
+});
