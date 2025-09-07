@@ -260,6 +260,10 @@ body {
     color: #FF0000;
     transform: scale(1.5);
 }
+.fa-github:hover{
+    color: #f6f8fa;
+    transform: scale(1.5);
+}
 
  /* ABOUT */
 .container { 
